@@ -7,12 +7,17 @@ License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 
 from __future__ import print_function
 
-import numpy as np
-import sys
+# import numpy as np
+# import sys
 
 import nsfg
-import thinkstats2
 
+def hello():
+    return "hello3"
+
+def ReadFemResp2():
+    df = nsfg.ReadFemResp()
+    return df
 
 def main(script):
     """Tests the functions in this module.
